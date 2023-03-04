@@ -1,11 +1,9 @@
 #!/usr/bin/env bash
-# Until loop to echo "Best Shool" 10 times
-
-var="Best School"
-a=0
-
-until [ $a -gt 9 ]
+# Prints 'Best School' using the until loop
+x=0
+until [ $x == 10 ]
 do
-	echo $var
-	(( a++ ))
+	echo "Best School"
+	((x++))
 done
+
